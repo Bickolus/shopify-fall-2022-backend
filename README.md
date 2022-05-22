@@ -9,7 +9,7 @@ This is a back-end for an application that manages inventory. It uses Express an
 
 > Github Repository Link: [https://github.com/Bickolus/shopify-fall-2022-backend](https://github.com/Bickolus/shopify-fall-2022-backend)
 >
-> Replit Link:
+> Replit Link: [https://replit.com/@Bicko/shopify-fall-2022-backend](https://replit.com/@Bicko/shopify-fall-2022-backend)
 > 
 
 ## Table of Contents
@@ -25,7 +25,9 @@ Type "npm install" in the console to install the dependancies this application r
 
 ## Usage
 
-In order to run this program, a couple things need to be done. Firstly, the user must create a database by logging into their mySQL server ("mySQL -u root -p" in a terminal), then typing "source ./db/schema.sql". Secondly, seed the database by typing "node ./seeds/index.js" in another terminal. Thirdly, type "npm start" to run the server. Your localhost:3001/api/ URL will now display objects. Use a program like Insomnia to check out GET, POST, PUT, DELETE http methods.
+In order to run this program, a couple things need to be done. Firstly, the user must create a database by logging into their mySQL server ("mySQL -u root -p" in a terminal), then typing "source ./db/schema.sql". Secondly, seed the database by typing "npm run seed" in another terminal. Thirdly, type "npm run start" to run the server. Your localhost:3001/api/ URL will now display objects. Use a program like Insomnia to check out GET, POST, PUT, DELETE http methods.
+
+Alternatively, check out the application using the Replit link.
 
 ## License
 
